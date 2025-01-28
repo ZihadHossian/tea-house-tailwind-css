@@ -95,8 +95,8 @@
                 <p class="text-white text-xs md:text-base pb-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                 <button class="bg-white px-5 py-3 text-orange-400 rounded-xl">Show All</button>
             </div>
-            <div class="relative  ">
-                <div class="relative h-36 w-3/4 bg-white rounded-lg flex items-end mx-auto top-20 right-3 opacity-40 ">
+            <div class="relative my-20 ">
+                <div class="relative h-36 w-3/4 bg-white rounded-lg flex items-center mx-auto -bottom-3 -right-2 opacity-40 md:h-40">
                     <div class="absolute bg-white rounded-full  -left-5 -top-9">
                         <img class="" src="./images/client.png" alt="">
                     </div>
@@ -106,7 +106,7 @@
                         <small class="font-thin text-gray-400">Businessman</small>
                     </div>
                 </div>
-                <div class="relative h-36 w-3/4 bg-white rounded-lg flex items-end mx-auto z-10">
+                <div class="relative h-36 w-3/4 bg-white rounded-lg flex items-center mx-auto right-4 z-10 md:h-40">
                     <div class="absolute bg-white rounded-full  -left-5 -top-9">
                         <img class="" src="./images/client.png" alt="">
                     </div>
@@ -116,7 +116,7 @@
                         <small class="font-thin text-gray-400">Businessman</small>
                     </div>
                 </div>
-                <div class="relative h-40 w-4/5 bg-white rounded-lg flex items-center mx-auto md:w-3/4 opacity-40">
+                <div class="relative h-36 w-3/4 bg-white rounded-lg flex items-center -top-3 -right-2 mx-auto opacity-50 md:h-40">
                     <div class="absolute bg-white rounded-full  -left-5 -top-9">
                         <img class="" src="./images/client.png" alt="">
                     </div>
@@ -128,7 +128,75 @@
                 </div>
             </div>
         </section>
+        <section class="my-24">
+            <h1 class="text-3xl font-bold text-center md:text-5xl">News & Events</h1>
+            <p class="text-gray-500 text-xs text-center md:text-base md:py-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <div class="grid grid-cols-1 gap-7 md:grid-cols-3">
+                <div class="p-6 rounded-lg bg-white shadow-xl">
+                    <img src="./images/news-1.png" alt="">
+                    <small class="text-gray-500 text-xs">Feb 05, 2027</small>
+                    <h3 class="font-bold text-xl">Collecting 8 points for discount</h3>
+                    <p class="text-gray-500 text-xs">There are many variations of passages of Lorem Ipsum available.</p>
+                    <button class="font-bold">Learn more</button>
+                </div>
+                <div class="p-6 rounded-lg bg-white shadow-xl">
+                    <img src="./images/news-2.png" alt="">
+                    <small class="text-gray-500 text-xs">Feb 05, 2027</small>
+                    <h3 class="font-bold text-xl">Collecting 8 points for discount</h3>
+                    <p class="text-gray-500 text-xs">There are many variations of passages of Lorem Ipsum available.</p>
+                    <button class="font-bold">Learn more</button>
+                </div>
+                <div class="p-6 rounded-lg bg-white shadow-xl">
+                    <img src="./images/news-3.png" alt="">
+                    <small class="text-gray-500 text-xs">Feb 05, 2027</small>
+                    <h3 class="font-bold text-xl">Collecting 8 points for discount</h3>
+                    <p class="text-gray-500 text-xs">There are many variations of passages of Lorem Ipsum available.</p>
+                    <button class="font-bold">Learn more</button>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="grid grid-rows-3 bg-red-50 md:px-28">
+        <div class="flex justify-evenly items-center md:justify-between">
+            <img class="m-5" src="./images/cup.png" alt="">
+            <div class="flex gap-3 items-center">
+                <h3 class="text-gray-500">Ready to get started?</h3>
+                <button class="bg-white px-6 py-3 rounded-xl text-xl">Get Started</button>
+            </div>
+        </div>
+        <div class=" grid grid-cols-2 gap-5 md:grid-cols-4">
+            <ul>
+                <li>Quick Links</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Insurance</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+            <ul>
+                <li>Our Service</li>
+               <li><a href="#">Life Insurance</a></li> 
+                <li><a href="#">Car Insurance</a></li>
+                <li><a href="#">Health Insurance</a></li>
+                <li><a href="#">House Insurance</a></li>
+            </ul>
+            <ul>
+                <li>Help</li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div>
+                <h1>Subscribe to our newsletter</h1>
+                <div class="flex">
+                    <input type="email" class="w-3/4 text-xs" placeholder="Enter your email">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                <div class="gap-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
